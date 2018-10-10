@@ -11,14 +11,12 @@
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-
 		<!-- Aquí tenemos que poner el Jquery para que se cargue ANTES que los componente JS de Bootstrap -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
-
-		<!-- Css propoio -->
+		<!-- Css propio -->
 		<link rel="stylesheet" type="text/css" href="style.css">
 
 	
@@ -28,7 +26,7 @@
 
 <header>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar-default navbar navbar-fixed-top">
 	  <div class="container">
 		  <div class="container-fluid">
 
@@ -42,7 +40,6 @@
 		      </button>
 		      <a class="navbar-brand" href="index.html"><img height="30px" src="images/latam_logo.png"></a>
 		    </div>
-
 		         
 		      <ul class="nav navbar-nav navbar-right">
 		        <li><a href="#">Equipo</a></li>
@@ -65,24 +62,36 @@
 
 	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner" role="listbox">
-	    <div class="item active">
-	      <img src="images/color.jpg" alt="...">
+	    <div class="item active item1">
+	      <!-- <img src="images/Wallpapers 1366x768.jpg" class="img-responsive" alt="...">-->
 	      <div class="carousel-caption">
 	  		<h1>COMIENZA UNA NUEVA VIDA Y ÚNETE AL MUNDO TECNOLÓGICO</h1>
+	  		<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+			<button type="button" class="btn btn-primary">Comienza Acá</button>
+			<!-- Indicates a successful or positive action -->
+			<button type="button" class="btn btn-success">Más Info</button>
     		<p>Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno</p>
 	      </div>
 	    </div><!-- / item active -->
-	    <div class="item">
-	      <img src="images/color1.jpg" alt="...">
+	    <div class="item item2">
+	      <!--<img src="images/bg22.jpeg" class="img-responsive" alt="...">-->
 	      <div class="carousel-caption">
 	  		<h1>COMIENZA UNA NUEVA VIDA Y ÚNETE AL MUNDO TECNOLÓGICO</h1>
+	  		<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+			<button type="button" class="btn btn-primary">Comienza Acá</button>
+			<!-- Indicates a successful or positive action -->
+			<button type="button" class="btn btn-success">Más Info</button>	  		
     		<p>Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno</p>
 	      </div>
 	    </div><!-- / item 2 -->
-	    <div class="item">
-	      <img src="images/color2.jpg" alt="...">
+	    <div class="item item3">
+	      <!--<img src="images/mike-giles-wallpaper-1920x1200.jpg" class="img-responsive" alt="...">-->
 	      <div class="carousel-caption">
 	  		<h1>COMIENZA UNA NUEVA VIDA Y ÚNETE AL MUNDO TECNOLÓGICO</h1>
+	  		<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+			<button type="button" class="btn btn-primary">Comienza Acá</button>
+			<!-- Indicates a successful or positive action -->
+			<button type="button" class="btn btn-success">Más Info</button>
     		<p>Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno</p>
 	      </div>
 	    </div><!-- / item 3 -->	    
@@ -99,10 +108,10 @@
 	  </a>
 	</div><!-- / Carrousel -->
 
-</body>
-	<div class="row"><!-- row 1 -->
+
+	<div class="row padding"><!-- row 1 -->
 		<div class="container"><!-- container -->
-			<div class="col-md-8 col-md-offset-2">
+			<div class="col-md-8 col-md-offset-2 centrado">
 				<h3>El bootcamp de programación más grande de Latinoamérica</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero veritatis cum similique fuga modi totam numquam beatae qui culpa commodi, veniam doloribus accusantium ipsam eius dignissimos. Harum obcaecati, animi repudiandae.</p>
 				<img src="images/images_cv/viewing-gallery-for-happy-people.png" height="400px" alt=" Desafío Latam Bootstrap">
@@ -110,9 +119,9 @@
 		</div><!-- / container -->
 	</div><!-- / row 1 -->
 
-	<div class="row"> <!-- row 2 -->
+	<div class="row color1"> <!-- row 2 -->
 		<div class="container"><!-- container -->
-			<div class="col-md-8 col-md-offset-2">
+			<div class="col-md-8 col-md-offset-2 centrado">
 				<h3>Solicita Información e inscríbete</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos architecto quidem, minima eaque dicta excepturi quibusdam tenetur at quis? Odit provident recusandae sed doloremque eaque velit aspernatur qui, reiciendis ex.</p>
 				<button type="button" class="btn btn-primary">Inscríbete!</button>
@@ -132,15 +141,15 @@
 			<div class="col-md-5">
 				<h4>Suscríbete</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				<form>
+				<form class="col-md-10 sinpadding">
 					<div class="form-group">
 				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
 				  	</div>
-				  	<button type="submit" class="btn btn-default">Enviar</button>
-  				</form> 
+				</form> 
+				<button type="submit" class="btn btn-default col-md-2">Enviar</button>
 			</div><!-- /col  -->
 			
 		</div><!-- / container -->
 	</footer>
-
+</body>
 </html>

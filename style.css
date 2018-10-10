@@ -1,0 +1,57 @@
+.navbar-default{
+	opacity: 0.7;
+	background-color: black;
+}
+
+.nav a{
+	color: white;
+}
+
+.carousel{
+
+}
+
+.item1{
+	background-image: url("images/bg22.jpeg");
+	background-position: center;
+	height: 400px;
+	width: auto;
+}
+
+.item2{
+	background-image: url("images/Wallpapers 1366x768.jpg") ;
+	background-position: center;
+	height: 400px;
+	width: auto;
+}
+
+.item3{
+	background-image: url("images/mike-giles-wallpaper-1920x1200.jpg");
+	background-position: center;
+	height: 400px;
+	width: auto;
+}
+
+.centrado {
+	text-align: center;
+	padding top: 40px;
+}
+
+.color1{
+	background-color: #fafafa;
+	border-top: 1px solid #c8c6c6;
+	border-bottom: 1px solid #c8c6c6; 
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.padding{
+	margin-top: 40px;
+}
+
+.sinpadding{
+	padding-left: 0;
+}
+
+footer{
+	padding:2em 0 2em 0;
+}
