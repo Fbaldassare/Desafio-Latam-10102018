@@ -62,9 +62,21 @@
 .sinpadding{
 	padding-left: 0;
 }
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.row3{
+	padding:2em 0 2em 0;
+}
 
 footer{
-	padding:2em 0 2em 0;
+	background-color: #222222;
+	color: white;
+}
+
+footer p{
+	text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px){
